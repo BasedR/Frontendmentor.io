@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: hsl(225, 100%, 94%);
+  font-size: 16px;
+}
+
+button {
+  font-size: 15px;
+}
+
+.box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 450px;
+  height: 700px;
+  transform: translate(-50%, -50%);
+  background-color: aliceblue;
+  border-radius: 20px;
+  overflow: hidden;
+  border: chartreuse solid 1px;
+}
+.flex-box {
+  display: flex;
+  height: 430px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 50px;
+  border: brown solid 1px;
+}
+.plan-box {
+  display: flex;
+  align-items: center;
+  background-color: hsl(225, 100%, 94%);
+  margin: 10px 0px;
+  width: 100%;
+}
+.image {
+  height: 30%;
+  background-image: url(./images/illustration-hero.svg);
+  background-size: contain;
+}
+#proceed-button {
+  color: white;
+  font-weight: bold;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 15px;
+  border-color: hsl(245, 75%, 52%);
+  padding: 10px 0px;
+  margin: 10px 0px;
+  width: 100%;
+  box-shadow: 0px 10px 15px hsl(231, 4%, 64%);
+  text-decoration: none;
+  outline: none;
+}
+#cancel-button {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.flex-box > h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.flex-box > p {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  padding: 0px 10px;
+  letter-spacing: 0.5px;
+}
