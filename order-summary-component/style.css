@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
+
+
 * {
   font-family: "Red Hat Display", sans-serif;
 }
@@ -12,6 +14,7 @@ body {
   font-size: 16px;
 }
 
+
 button {
   font-size: 15px;
 }
@@ -23,60 +26,102 @@ button {
   width: 450px;
   height: 700px;
   transform: translate(-50%, -50%);
-  background-color: aliceblue;
+  background-color: white;
   border-radius: 20px;
   overflow: hidden;
-  border: chartreuse solid 1px;
+}
+@media screen and (max-width:600px)
+{
+  .box {
+    height: 60vw;
+    width: 90vw;
+  }
 }
 .flex-box {
   display: flex;
   height: 430px;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  padding: 30px 50px;
-  border: brown solid 1px;
+  justify-content: center;
+  padding: 20px 50px 30px 50px;
 }
 .plan-box {
   display: flex;
   align-items: center;
-  background-color: hsl(225, 100%, 94%);
+  background-color: hsl(230, 75%, 98%);
   margin: 10px 0px;
   width: 100%;
+  color: hsl(224, 23%, 55%);
+  border-radius: 15px;
 }
 .image {
   height: 30%;
   background-image: url(./images/illustration-hero.svg);
-  background-size: contain;
 }
 #proceed-button {
   color: white;
   font-weight: bold;
   background-color: hsl(245, 75%, 52%);
-  border-radius: 15px;
-  border-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  border: none;
   padding: 10px 0px;
-  margin: 10px 0px;
+  margin: 20px 0px;
+  height: 12%;
   width: 100%;
   box-shadow: 0px 10px 15px hsl(231, 4%, 64%);
   text-decoration: none;
   outline: none;
+  cursor: pointer;
+}
+#proceed-button:hover {
+  background-color: hsl(224, 23%, 55%);
+  border-color: hsl(224, 23%, 55%);
 }
 #cancel-button {
   color: hsl(224, 23%, 55%);
   text-decoration: none;
   font-weight: bold;
-  margin: 10px;
+  margin: 10px 10px 0px 10px;
+}
+#cancel-button:hover {
+  color: hsl(223, 47%, 23%);
 }
 
 .flex-box > h1 {
   color: hsl(223, 47%, 23%);
-  font-weight: 900;
+  font-weight: 800;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .flex-box > p {
   color: hsl(224, 23%, 55%);
   text-align: center;
   padding: 0px 10px;
-  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.plan-info > span {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  
+}
+.plan-info > p{
+  padding-top: 5px;
+  margin: 0px;
+}
+.change-plan {
+  right: 50%;
+  font-weight: 700;
+  margin-left: auto;
+  padding: 20px;
+  color: hsl(245, 75%, 52%);
+}
+.change-plan > a:hover {
+  text-decoration: none;
+}
+
+.plan-box > img {
+  padding: 20px;
 }
