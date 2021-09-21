@@ -1,5 +1,4 @@
 # Frontend Mentor - Order summary card solution
-[](./work.png)
 
 First, solution that i am happy with.
 I Learned a lot of basics and i think, some good habits:
@@ -7,9 +6,12 @@ I Learned a lot of basics and i think, some good habits:
 -Using rem,em
 -Media Queries 
 -Break points in responsive design 
+
+### Screenshot
+![](./work.png)
 ### Links
 
-- Live Site URL: [live site](https://frontendmentor-io-tau.vercel.app)
+- Live Site URL: [Live site](https://frontendmentor-io-tau.vercel.app)
 
 ### Built with
 
@@ -22,5 +24,5 @@ I Learned a lot of basics and i think, some good habits:
 I still have a lot, a lot to learn, but this first design showed me that everthing is achievable with patience and hard work, i will post a lot more works daily 
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/BasedR)
+- Frontend Mentor - [@BasedR](https://www.frontendmentor.io/profile/BasedR)
 
