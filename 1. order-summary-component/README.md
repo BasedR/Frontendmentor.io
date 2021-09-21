@@ -1,5 +1,5 @@
 
-(./work.jpg)
+[](./work.jpg)
 # Frontend Mentor - Order summary card solution
 
 First, solution that i am happy with.
