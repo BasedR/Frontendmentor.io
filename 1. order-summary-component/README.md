@@ -9,7 +9,7 @@ I Learned a lot of basics and i think, some good habits:
 -Break points in responsive design 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://frontendmentor-io-tau.vercel.app)
+- Live Site URL: [live site](https://frontendmentor-io-tau.vercel.app)
 
 ### Built with
 
