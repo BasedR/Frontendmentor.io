@@ -8,7 +8,7 @@ I Learned a lot of basics and i think, some good habits:
 -Break points in responsive design 
 
 ### Screenshot
-![](./work.png)
+![](./work.jpg)
 ### Links
 
 - Live Site URL: [Live site](https://frontendmentor-io-tau.vercel.app)
