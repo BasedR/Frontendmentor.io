@@ -16,7 +16,7 @@
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="script.js"></script>
+    <script async type="text/javascript" src="script.js"></script>
   </head>
 
   <body>
@@ -27,25 +27,68 @@
         <div class="flex-box">
           <div class="left-column">
             <h6>Bill</h6>
-            <div class="input-div">
+            <div class="input-div" id="input-div1">
               <img src="./images/icon-dollar.svg" alt="" />
-              <input class="input" placeholder="0" name="bill-value" id="bill-value" />
+              <input
+                class="input"
+                placeholder="0"
+                name="bill-value"
+                id="bill-value"
+              />
             </div>
 
             <h6>Select Tip %</h6>
             <div class="grid-box">
-              <div class="grid-item">5%</div>
-              <div class="grid-item">10%</div>
-              <div class="grid-item">15%</div>
-              <div class="grid-item">25%</div>
-              <div class="grid-item">50%</div>
-              <div class="grid-item custom-grid-item">Custom</div>
+              <button
+                class="grid-item"
+                id="but1"
+                onclick="calculateBill(percentArray[0])"
+              >
+                5%
+              </button>
+              <button
+                class="grid-item"
+                id="but2"
+                onclick="calculateBill(percentArray[1])"
+              >
+                10%
+              </button>
+              <button
+                class="grid-item"
+                id="but3"
+                onclick="calculateBill(percentArray[2])"
+              >
+                15%
+              </button>
+
+              <button
+                class="grid-item"
+                id="but4"
+                onclick="calculateBill(percentArray[3])"
+              >
+                20%
+              </button>
+
+              <button
+                class="grid-item"
+                id="but5"
+                onclick="calculateBill(percentArray[4])"
+              >
+                25%
+              </button>
+
+              <input class="grid-item" placeholder="Custom" />
             </div>
 
             <h6>Number of People</h6>
             <div class="input-div">
               <img src="./images/icon-person.svg" alt="" />
-              <input class="input" placeholder="0" name="people-value" id="people-value" />
+              <input
+                class="input"
+                placeholder="0"
+                name="people-value"
+                id="people-value"
+              />
             </div>
           </div>
 
@@ -54,6 +97,7 @@
               <p class="tip-style">Tip Amount</p>
               <p class="person-style">/ person</p>
               <div class="spacing-div"></div>
+
               <p class="tip-style">Total</p>
               <p class="person-style">/ person</p>
             </div>
@@ -65,7 +109,7 @@
               </form>
             </div>
             <div class="reset-div">
-              <button onclick="calculateBill()">RESET</button>
+              <button id="reset-button">RESET</button>
             </div>
           </div>
         </div>
