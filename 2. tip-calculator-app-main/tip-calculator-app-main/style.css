@@ -8,7 +8,7 @@ body {
   background-color: hsl(185, 41%, 84%);
 }
 h6 {
-  font-size: 0.5em;
+  font-size: 0.55em;
   margin: 0;
 }
 img {
@@ -59,7 +59,9 @@ img {
   text-align: right;
   border: none;
   font-size: 0.75rem;
+  font-weight: bold;
   background-color: inherit;
+  color: hsl(183, 100%, 15%);
   outline: none;
 }
 /*---grid---*/
