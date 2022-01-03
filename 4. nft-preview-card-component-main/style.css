@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+/*flex box */
+.flex-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  max-width: 25%;
+  height: 80%;
+  background-color: hsl(216, 50%, 16%);
+  border: 25px solid hsl(216, 57%, 11%);
+  border-radius: 1rem;
+}
+
+.flex-box > img {
+  width: 100%;
+  height: 100%;
+}
+
+/*---Stopka---*/
+.atributtion {
+  position: absolute;
+}
