@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+* {
+  font-family: "Rubik";
+  font-size: 18px;
+}
+
+body {
+  background-color: hsl(226, 43%, 10%);
+}
+/*---grid stuff---*/
+.grid-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  width: 75%;
+  height: 60%;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem 1rem;
+}
+.id {
+  border: 1px solid seagreen;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background: #eee;
+}
+.grid-box > div {
+  border: 5px solid red;
+  order: 5px solid red;
+  border-radius: 1rem;
+}
+/*---grid child---*/
+.art-box {
+  background: hsl(15, 100%, 70%);
+  border: 5px solid pink;
+}
+.art-box:first-child {
+  height: 20%;
+  border-radius: 1rem;
+  position: relative;
+}
+.artwork {
+  background: hsl(15, 100%, 70%);
+}
+.artwork > img {
+  position: absolute;
+  overflow: scroll;
+  max-height: 100%;
+  max-width: 40%;
+  right: 10%;
+  top: -10%;
+}
+.grid-child {
+  border: 1px solid green;
+  margin-top: 20%;
+  height: 80%;
+  background: hsl(235, 46%, 20%);
+  color: #eee;
+  padding-left: 15%;
+  border-radius: inherit;
+}
+
+.grid-child > h5 {
+  font-size: 3.5em;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  padding-top: 0.2em;
+}
+
+.grid-child > h3 {
+  padding-top: 0.75rem;
+  font-size: 0.75em;
+  font-weight: 500;
+}
+
+.grid-child > p {
+  color: hsl(236, 100%, 87%);
+}
